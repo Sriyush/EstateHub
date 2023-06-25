@@ -10,7 +10,7 @@ body {
   padding: 0;
   color: #222222;
   background-color: #2a9df4;
-  background-image: url("asset/cover.png");
+  background-image: url("index/login-page/asset/cover.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -133,7 +133,7 @@ li.google {
 }
 
 li.google a::before {
-  background-image: url("asset/google.png");
+  background-image: url("index/login-page/asset/google.png");
 }
 
  li.fb {
@@ -142,7 +142,7 @@ li.google a::before {
 
 li.fb a::before {
   margin: 0;
-  background-image: url("asset/fb.png");
+  background-image: url("index/login-page/asset/fb.png");
 }
 
 @media only screen and (max-width: 400px) {

@@ -99,5 +99,5 @@ function validate_password(password) {
     return password.length >= 8;
 }
 function handleLoginButton() {
-    window.location.href = 'lpage.html';
+    window.location.href = 'index.html';
   }

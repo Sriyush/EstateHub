@@ -29,7 +29,7 @@ const firebaseConfig = {
       .then((userCredential) => {
         // Redirect to the home page if authorized
         alert("Logged in Successfuly")
-        window.location.href = 'index/index.html';
+        window.location.href = 'index/login-page/index/main.html';
       })
       .catch((error) => {
         const errorCode = error.code;
